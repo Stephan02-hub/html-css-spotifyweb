@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Spotify</title>
+    <!-- Google Fonts: https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- /Google Fonts -->
+    <!-- Font Awesome: https://fontawesome.com/search?o=r&m=free -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- /Font Awesome -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="debugs">
+    <div class="main-container">
+        <!-- HEADER  -->
+        <header>
+            <div class="header-top">
+                <div class="logo">
+                    <img class="img-fluid small" src="img/logo-small.svg" alt="Spotify Logo">
+                    <img class="img-fluid big" src="img/logo.svg" alt="Spotify Logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li> <img src="img/home.svg" alt="home"><span>Home</span></li>
+                        <li> <img src="img/search.svg" alt="search"><span>Cerca</span></li>
+                        <li> <img src="img/libreria.svg" alt="library"><span>La tua libreria</span></li>
+                    </ul>
+                </nav>
+                <div class="playlist">
+                    <h3>PLAYLIST</h3>
+                    <div class="add-section">
+                        <button class="btn add">+</button> <span> Crea Playlist</span>
+                    </div>
+                    <ul>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                        <li><span>Nome Playlist</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <ul>
+                    <li><img class="download" src="img/download.svg" alt="download"> <span>Installa app</span></li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>
+                        <img class="img-fluid circle" src="img/profile.svg" alt="Profile Picture">
+                        <span class="profile">John Doe</span>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <!-- /HEADER  -->
+        <main>
+            <div class="upgrade-bar">
+                <button class="btn up">EFFETTUA L'UPGRADE</button>
+            </div>
+            <nav class="genres-menu">
+                <ul>
+                    <li><a href="">IN EVIDENZA</a></li>
+                    <li><a href="">PODCAST</a></li>
+                    <li><a href="">CLASSIFICHE</a></li>
+                    <li><a href="">GENERI E MOOD</a></li>
+                    <li><a href="">NUOVE USCITE</a></li>
+                    <li><a href="">SCOPRI</a></li>
+                </ul>
+            </nav>
+
+            <div class="section-container">
+                <section class="recently-played">
+                    <h2>Recently played</h2>
+                    <div class="row gap-10">
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/metal_lifting.jpg" alt="Metallica">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+                            </div>
+                            <div class="album-info">
+                                <h3>Heavy Metal</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/stranger.jpeg" alt="Stranger Things">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+
+                            </div>
+                            <div class="album-info">
+                                <h3>Stranger Things, Vol. 1 (a Netflix Original Series Soundtrack)</h3>
+                                <span>Kyle Dixon & Michael Stein</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/aquietplace.jpeg" alt="A Quiet Place">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+
+                            </div>
+                            <div class="album-info">
+                                <h3>A quiet Place</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/split.jpeg" alt="Split">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+
+                            </div>
+                            <div class="album-info">
+                                <h3>Split</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/cure.jpeg" alt="A cure for wellness">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+
+                            </div>
+                            <div class="album-info">
+                                <h3>A cure for wellness</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/sinister.jpeg" alt="Sinister">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+                            </div>
+                            <div class="album-info">
+                                <h3>Sinister</h3>
+                                <span>Subtitle</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+                <section class="made-for">
+                    <h2>Creato per John Doe</h2>
+                    <span>Più ascolti, più accurati saranno i suggerimenti</span>
+                    <div class="row gap-10">
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/radar.jpeg" alt="Radar">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+                            </div>
+                            <div class="album-info">
+                                <h3>Release Radar</h3>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid" src="img/mixdaily.jpeg" alt="Daily Mix">
+                                <div class="overlay">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+                            </div>
+                            <div class="album-info">
+                                <h3>Daily Mix 1</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="popular-artist">
+                    <h2>Artisti più popolari</h2>
+                    <span>Più ascolti, più accurati saranno i suggerimenti</span>
+                    <div class="row gap-10">
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid circle" src="img/young.jpeg" alt="Young And Beautiful">
+                                <div class="overlay circle">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+                            </div>
+                            <div class="album-info">
+                                <h3>Lana Del Rey</h3>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="album-cover">
+                                <img class="img-fluid circle" src="img/einaudi.jpeg" alt="Einaudi">
+                                <div class="overlay circle">
+                                    <button class="btn play"><i class="fa-regular fa-circle-play"></i></button>
+                                </div>
+                            </div>
+                            <div class="album-info">
+                                <h3>Einaudi</h3>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
